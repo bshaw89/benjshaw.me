@@ -245,8 +245,8 @@ export default function Home() {
       </main>
       <footer>
       <div className={styles.footer + " " + shantell.className}>
-          <p>1. Check out <a href="https://www.linkedin.com/in/benjamin-shaw-1560881b4/">my LinkedIn.</a></p>
-          <p>2. Check out <a href="https://www.linkedin.com/in/benjamin-shaw-1560881b4/">my GitHub.</a></p>
+          <p>1. Check out <a href="https://www.linkedin.com/in/benjamin-shaw-1560881b4/" target="_blank">my LinkedIn.</a></p>
+          <p>2. Check out <a href="https://github.com/bshaw89" target="_blank">my GitHub.</a></p>
           <p>3. Call me up! 778-877-2329</p>
         </div>
       </footer>
