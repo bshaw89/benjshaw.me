@@ -77,7 +77,7 @@ export default function Home() {
 
                     <Image
                       className={styles.photo}
-                      src="/swarm-VR.jpg"
+                      src="/swarm-vr.jpg"
                       alt="Next.js Logo"
                       width={550}
                       height={37}
