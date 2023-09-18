@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>Hey <span className={styles.green}>Greensky Games</span>, I'm Ben.</p>
+                <p>Hey <span className={styles.green}>Greensky Games</span>, I&apos;m Ben.</p>
               </div>
             </div>
             <div className={styles.divider}>
@@ -114,7 +114,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I've been a full time <span className={styles.green}>coder for 3 years</span>, working in <span className={styles.green}>C#</span>, <span className={styles.green}>DevOps</span>, and <span className={styles.green}>Git</span>.<span className={styles.faded}> ASP.NET, JavaScript, node.js, MVC, TypeScript, React, Next.js, HTML, CSS ...</span></p>
+                <p>I&apos;ve been a full time <span className={styles.green}>coder for 3 years</span>, working in <span className={styles.green}>C#</span>, <span className={styles.green}>DevOps</span>, and <span className={styles.green}>Git</span>.<span className={styles.faded}> ASP.NET, JavaScript, node.js, MVC, TypeScript, React, Next.js, HTML, CSS ...</span></p>
               </div>
             </div>
             <div className={styles.divider}>
@@ -138,7 +138,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I've spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>.</p>
+                <p>I&apos;ve spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>.</p>
               </div>
             </div>
             <div className={styles.divider}>
@@ -180,7 +180,7 @@ export default function Home() {
                       priority
                     />
                     <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing7}>They're like 'why is he bowing like that, so dramatic'</p>
+                      <p className={styles.writing7}>They&apos;re like &apos;why is he bowing like that, so dramatic&apos;</p>
                     </div>
                   </div>
                 </div>
@@ -235,7 +235,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I'm currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span> and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
+                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span> and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
               </div>
             </div>
 
