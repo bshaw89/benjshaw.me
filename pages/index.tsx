@@ -132,7 +132,7 @@ export default function Home() {
                       priority
                     />
                     <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing5}>"Let me out of this photograph!"</p>
+                      <p className={styles.writing5}>&apos;Let me out of this photograph!&apos;</p>
                     </div>
                   </div>
                 </div>
