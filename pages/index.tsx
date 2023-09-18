@@ -132,7 +132,7 @@ export default function Home() {
                       priority
                     />
                     <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing5}>'Let me out of this photograph!'</p>
+                      <p className={styles.writing5}>"Let me out of this photograph!"</p>
                     </div>
                   </div>
                 </div>
@@ -240,37 +240,6 @@ export default function Home() {
             </div>
 
           </div>
-          {/* <div className={styles.column}>
-          <div className={styles.details}>
-            <p>Hey <span className={styles.green}>Greensky</span>, I'm Ben.</p>
-          </div>
-          <div className={styles.details}>
-            <p>I love building <span className={styles.green}>worlds</span>.</p>
-          </div>
-          <div className={styles.details}>
-            <p>So I want to help you build incredible worlds in <span className={styles.green}>VR</span>, using <span className={styles.green}>Unity</span> and <span className={styles.green}>C#</span>.</p>
-          </div>
-          <div className={styles.details}>
-            <p>I've been a full time <span className={styles.green}>coder for 3 years</span>, working in <span className={styles.green}>C#</span>, <span className={styles.green}>DevOps</span>, and <span className={styles.green}>Git</span>.</p>
-            <span>ASP.NET, JavaScript, node.js, MVC, TypeScript, React, Next.js, HTML, CSS ...</span>
-          </div>
-          <div className={styles.details}>
-            <p>I've spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>.</p>
-          </div>
-          <div className={styles.details}>
-            <p>I even did some scripting in <span className={styles.green}>Lua</span> for a D&D campaign I ran for 2 years using Tabletop Simulator. That was rough. (also, cool VR mode)</p>
-          </div>
-          <div className={styles.details}>
-            <p>Before coding, I spent a lot of my time as an <span className={styles.green}>opera singer</span>.</p>
-            <span>I love collaborating, performing, and being on stage.</span>
-          </div>
-          <div className={styles.details}>
-            <p>I also love <span className={styles.green}>making music</span>. I produced an album of original music during Covid. (You can check me out as <span className={styles.green}>Ben Eris</span> on <span className={styles.green}>Spotify</span>)</p>
-          </div>
-          <div className={styles.details}>
-          <p>I'm currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span> and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
-          </div>
-        </div> */}
         </div>
         
       </main>
