@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import { Inter, Caveat, Annie_Use_Your_Telescope } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
+const caveat = Caveat({ subsets: ['latin'] })
+const shantell = Annie_Use_Your_Telescope({ weight: '400', subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -14,110 +16,271 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+      <main className={styles.main + " " + shantell.className}>
+        <div className={styles.upper}>
+
+
+          <div className={styles.column}>
+            <div className={styles.divider}>
+              <div className={styles.pageLeft}>
+                <div className={styles.item + " " + styles.item1}>
+
+                  <div className={styles.polaroid}>
+
+                    <Image
+                      className={styles.photo}
+                      src="/building-worlds-cropped.jpg"
+                      alt="Next.js Logo"
+                      width={550}
+                      height={37}
+                      priority
+                    />
+                    <div className={styles.caption + " " + caveat.className}>
+                      <p className={styles.writing1}>Creating yet another world for D&D</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.details}>
+                <p>Hey <span className={styles.green}>Greensky Games</span>, I'm Ben.</p>
+              </div>
+            </div>
+            <div className={styles.divider}>
+              <div className={styles.pageLeft}>
+                <div className={styles.item + " " + styles.item2}>
+
+                  <div className={styles.polaroid}>
+
+                    <Image
+                      className={styles.photo}
+                      src="/ben-paris-cropped.jpg"
+                      alt="Next.js Logo"
+                      width={550}
+                      height={37}
+                      priority
+                    />
+                    <div className={styles.caption + " " + caveat.className}>
+                      <p className={styles.writing2}>Me in World of Paris</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.details}>
+                <p>I love building <span className={styles.green}>worlds</span>, especially with amazing and passionate people.</p>
+              </div>
+            </div>
+            <div className={styles.divider}>
+              <div className={styles.pageLeft}>
+                <div className={styles.item + " " + styles.item3}>
+
+                  <div className={styles.polaroid}>
+
+                    <Image
+                      className={styles.photo}
+                      src="/swarm-VR.jpg"
+                      alt="Next.js Logo"
+                      width={550}
+                      height={37}
+                      priority
+                    />
+                    <div className={styles.caption + " " + caveat.className}>
+                      <p className={styles.writing3}></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.details}>
+                <p>So I want to help you build incredible worlds in <span className={styles.green}>VR</span>, using <span className={styles.green}>Unity</span> and <span className={styles.green}>C#</span>.</p>
+              </div>
+            </div>
+            <div className={styles.divider}>
+              <div className={styles.pageLeft}>
+                <div className={styles.item + " " + styles.item4}>
+
+                  <div className={styles.polaroid}>
+
+                    <Image
+                      className={styles.photo}
+                      src="/helmet-cropped.jpg"
+                      alt="Next.js Logo"
+                      width={550}
+                      height={37}
+                      priority
+                    />
+                    <div className={styles.caption + " " + caveat.className}>
+                      <p className={styles.writing4}>Gotta be safe, this language is sharp</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.details}>
+                <p>I've been a full time <span className={styles.green}>coder for 3 years</span>, working in <span className={styles.green}>C#</span>, <span className={styles.green}>DevOps</span>, and <span className={styles.green}>Git</span>.<span className={styles.faded}> ASP.NET, JavaScript, node.js, MVC, TypeScript, React, Next.js, HTML, CSS ...</span></p>
+              </div>
+            </div>
+            <div className={styles.divider}>
+              <div className={styles.pageLeft}>
+                <div className={styles.item + " " + styles.item5}>
+
+                  <div className={styles.polaroid}>
+
+                    <Image
+                      className={styles.photo}
+                      src="/sword-attack-2.gif"
+                      alt="Next.js Logo"
+                      width={550}
+                      height={37}
+                      priority
+                    />
+                    <div className={styles.caption + " " + caveat.className}>
+                      <p className={styles.writing5}>'Let me out of this photograph!'</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.details}>
+                <p>I've spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>.</p>
+              </div>
+            </div>
+            <div className={styles.divider}>
+              <div className={styles.pageLeft}>
+                <div className={styles.item + " " + styles.item6}>
+
+                  <div className={styles.polaroid}>
+
+                    <Image
+                      className={styles.photo}
+                      src="/tts-2.jpg"
+                      alt="Next.js Logo"
+                      width={550}
+                      height={37}
+                      priority
+                    />
+                    <div className={styles.caption + " " + caveat.className}>
+                      <p className={styles.writing6}>Virtual dice towers cause as much chaos as real ones</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.details}>
+                <p>I even did some scripting in <span className={styles.green}>Lua</span> for a D&D campaign I ran for 2 years using Tabletop Simulator. That was rough. <span className={styles.faded}>(also, cool VR mode)</span></p>
+              </div>
+            </div>
+            <div className={styles.divider}>
+              <div className={styles.pageLeft}>
+                <div className={styles.item + " " + styles.item7}>
+
+                  <div className={styles.polaroid}>
+
+                    <Image
+                      className={styles.photo}
+                      src="/opera-cropped.jpg"
+                      alt="Next.js Logo"
+                      width={550}
+                      height={37}
+                      priority
+                    />
+                    <div className={styles.caption + " " + caveat.className}>
+                      <p className={styles.writing7}>They're like 'why is he bowing like that, so dramatic'</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.details}>
+                <p>Before coding, I spent a lot of my time as an <span className={styles.green}>opera singer</span>. <span className={styles.faded}>I love collaborating, performing, and being on stage.</span></p>
+
+              </div>
+            </div>
+            <div className={styles.divider}>
+              <div className={styles.pageLeft}>
+                <div className={styles.item + " " + styles.item8}>
+
+                  <div className={styles.polaroid}>
+
+                    <Image
+                      className={styles.photo}
+                      src="/website-screen-3.png"
+                      alt="Next.js Logo"
+                      width={550}
+                      height={37}
+                      priority
+                    />
+                    <div className={styles.caption + " " + caveat.className}>
+                      <p className={styles.writing8}>A website I built for my music: (<a href="https://www.benerismusic.com/" target="_blank" rel="noreferrer noopener">benerismusic.com</a>)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.details}>
+                <p>I also love <span className={styles.green}>making music</span>. I produced an album of original music during Covid. <span className={styles.faded}>(You can check me out as <span className={styles.green}>Ben Eris</span> on <span className={styles.green}>Spotify</span>)</span></p>
+              </div>
+            </div>
+            <div className={styles.divider}>
+              <div className={styles.pageLeft}>
+                <div className={styles.item + " " + styles.item9}>
+
+                  <div className={styles.polaroid}>
+
+                    <Image
+                      className={styles.photo}
+                      src="/generative01.jpg"
+                      alt="Next.js Logo"
+                      width={550}
+                      height={37}
+                      priority
+                    />
+                    <div className={styles.caption + " " + caveat.className}>
+                      <p className={styles.writing9}>Sound waves, or a world map?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.details}>
+                <p>I'm currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span> and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
+              </div>
+            </div>
+
           </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
+          {/* <div className={styles.column}>
+          <div className={styles.details}>
+            <p>Hey <span className={styles.green}>Greensky</span>, I'm Ben.</p>
           </div>
+          <div className={styles.details}>
+            <p>I love building <span className={styles.green}>worlds</span>.</p>
+          </div>
+          <div className={styles.details}>
+            <p>So I want to help you build incredible worlds in <span className={styles.green}>VR</span>, using <span className={styles.green}>Unity</span> and <span className={styles.green}>C#</span>.</p>
+          </div>
+          <div className={styles.details}>
+            <p>I've been a full time <span className={styles.green}>coder for 3 years</span>, working in <span className={styles.green}>C#</span>, <span className={styles.green}>DevOps</span>, and <span className={styles.green}>Git</span>.</p>
+            <span>ASP.NET, JavaScript, node.js, MVC, TypeScript, React, Next.js, HTML, CSS ...</span>
+          </div>
+          <div className={styles.details}>
+            <p>I've spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>.</p>
+          </div>
+          <div className={styles.details}>
+            <p>I even did some scripting in <span className={styles.green}>Lua</span> for a D&D campaign I ran for 2 years using Tabletop Simulator. That was rough. (also, cool VR mode)</p>
+          </div>
+          <div className={styles.details}>
+            <p>Before coding, I spent a lot of my time as an <span className={styles.green}>opera singer</span>.</p>
+            <span>I love collaborating, performing, and being on stage.</span>
+          </div>
+          <div className={styles.details}>
+            <p>I also love <span className={styles.green}>making music</span>. I produced an album of original music during Covid. (You can check me out as <span className={styles.green}>Ben Eris</span> on <span className={styles.green}>Spotify</span>)</p>
+          </div>
+          <div className={styles.details}>
+          <p>I'm currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span> and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
+          </div>
+        </div> */}
         </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
+        
       </main>
+      <footer>
+      <div className={styles.footer + " " + shantell.className}>
+          <p>1. Check out <a href="https://www.linkedin.com/in/benjamin-shaw-1560881b4/">my LinkedIn.</a></p>
+          <p>2. Check out <a href="https://www.linkedin.com/in/benjamin-shaw-1560881b4/">my GitHub.</a></p>
+          <p>3. Call me up! 778-877-2329</p>
+        </div>
+      </footer>
     </>
   )
 }

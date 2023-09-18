@@ -43,7 +43,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 100, 100, 100;
     --background-end-rgb: 0, 0, 0;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
@@ -97,11 +97,17 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .divider {
+    flex: column;
   }
 }
