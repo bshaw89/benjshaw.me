@@ -42,216 +42,23 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>Hey <span className={styles.green}>Thunder Lotus</span>, I&apos;m Ben.</p>
+                <p>Hey, I&apos;m Ben. I love building worlds, programming, making music, and collaborating.</p>
               </div>
             </div>
-            <div className={styles.divider}>
-              <div className={styles.pageLeft}>
-                <div className={styles.item + " " + styles.item2}>
-
-                  <div className={styles.polaroid}>
-
-                    <Image
-                      className={styles.photo}
-                      src="/ben-paris-cropped.jpg"
-                      alt="Next.js Logo"
-                      width={550}
-                      height={37}
-                      priority
-                    />
-                    <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing2}>Me in World of Paris</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.details}>
-                <p>I love building <span className={styles.green}>worlds</span>, especially with amazing and passionate people.</p>
-              </div>
-            </div>
-            <div className={styles.divider}>
-              <div className={styles.pageLeft}>
-                <div className={styles.item + " " + styles.item3}>
-
-                  <div className={styles.polaroid}>
-
-                    <Image
-                      className={styles.photo}
-                      src="/spiritfarer2.jpg"
-                      alt="Next.js Logo"
-                      width={550}
-                      height={37}
-                      priority
-                    />
-                    <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing3}></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.details}>
-                <p>So I want to help you build incredible worlds using <span className={styles.green}>Unity</span> and <span className={styles.green}>C#</span>. <span className={styles.faded}>And any other cool tools you&apos;re using to make 33 Immortals.</span></p>
-              </div>
-            </div>
-            <div className={styles.divider}>
-              <div className={styles.pageLeft}>
-                <div className={styles.item + " " + styles.item4}>
-
-                  <div className={styles.polaroid}>
-
-                    <Image
-                      className={styles.photo}
-                      src="/helmet-cropped.jpg"
-                      alt="Next.js Logo"
-                      width={550}
-                      height={37}
-                      priority
-                    />
-                    <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing4}>Gotta be safe, this language is sharp</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.details}>
-                <p>I&apos;ve been a full time <span className={styles.green}>coder for 3 years</span>, working in <span className={styles.green}>C#</span>, <span className={styles.green}>DevOps</span>, and <span className={styles.green}>Git</span>.<span className={styles.faded}> ASP.NET, JavaScript, node.js, MVC, TypeScript, React, Next.js, HTML, CSS ...</span></p>
-              </div>
-            </div>
-            <div className={styles.divider}>
-              <div className={styles.pageLeft}>
-                <div className={styles.item + " " + styles.item5}>
-
-                  <div className={styles.polaroid}>
-
-                    <Image
-                      className={styles.photo}
-                      src="/sword-attack-2.gif"
-                      alt="Next.js Logo"
-                      width={550}
-                      height={37}
-                      priority
-                    />
-                    <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing5}>&apos;Let me out of this photograph!&apos;</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.details}>
-                <p>I&apos;ve spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>. <span className={styles.faded}>Now I&apos;m ready to start making games full time.</span></p>
-              </div>
-            </div>
-            <div className={styles.divider}>
-              <div className={styles.pageLeft}>
-                <div className={styles.item + " " + styles.item6}>
-
-                  <div className={styles.polaroid}>
-
-                    <Image
-                      className={styles.photo}
-                      src="/tts-2.jpg"
-                      alt="Next.js Logo"
-                      width={550}
-                      height={37}
-                      priority
-                    />
-                    <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing6}>Virtual dice towers cause as much chaos as real ones</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.details}>
-                <p>I even did some scripting in <span className={styles.green}>Lua</span> for a D&D campaign I ran for 2 years using Tabletop Simulator. That was rough. <span className={styles.faded}>(But my players really appreciated it. Probably.)</span></p>
-              </div>
-            </div>
-            <div className={styles.divider}>
-              <div className={styles.pageLeft}>
-                <div className={styles.item + " " + styles.item7}>
-
-                  <div className={styles.polaroid}>
-
-                    <Image
-                      className={styles.photo}
-                      src="/opera-cropped.jpg"
-                      alt="Next.js Logo"
-                      width={550}
-                      height={37}
-                      priority
-                    />
-                    <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing7}>They&apos;re like &apos;why is he bowing like that, so dramatic&apos;</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.details}>
-                <p>Before coding, I spent a lot of my time as an <span className={styles.green}>opera singer</span>. <span className={styles.faded}>I love collaborating, performing, and being on stage.</span></p>
-
-              </div>
-            </div>
-            <div className={styles.divider}>
-              <div className={styles.pageLeft}>
-                <div className={styles.item + " " + styles.item8}>
-
-                  <div className={styles.polaroid}>
-
-                    <Image
-                      className={styles.photo}
-                      src="/website-screen-3.png"
-                      alt="Next.js Logo"
-                      width={550}
-                      height={37}
-                      priority
-                    />
-                    <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing8}>A website I built for my music: (<a href="https://www.benerismusic.com/" target="_blank" rel="noreferrer noopener">benerismusic.com</a>)</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.details}>
-                <p>I also love <span className={styles.green}>making music</span>. I produced an album of original music during Covid. <span className={styles.faded}>(You can check me out as <span className={styles.green}>Ben Eris</span> on <span className={styles.green}>Spotify</span>)</span></p>
-              </div>
-            </div>
-            <div className={styles.divider}>
-              <div className={styles.pageLeft}>
-                <div className={styles.item + " " + styles.item9}>
-
-                  <div className={styles.polaroid}>
-
-                    <Image
-                      className={styles.photo}
-                      src="/generative01.jpg"
-                      alt="Next.js Logo"
-                      width={550}
-                      height={37}
-                      priority
-                    />
-                    <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing9}>Sound waves, or a world map?</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.details}>
-                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
-              </div>
-            </div>
-
           </div>
         </div>
       </main>
       <div className={styles.bleedWrap}>
           <div className={styles.bleedText + " " + shantell.className}>
-          <p className={styles.writing10}>SO, THUNDER LOTUS...</p>
+          <p className={styles.writing10}>More about me...</p>
           </div>
       </div>
       <footer>
       <div className={styles.footer + " " + shantell.className}>
           <p>1. Check out <a href="https://www.linkedin.com/in/benjamin-shaw-1560881b4/" target="_blank">my LinkedIn.</a></p>
           <p>2. Check out <a href="https://github.com/bshaw89" target="_blank">my GitHub.</a></p>
-          <p>3. Call me up! 778-877-2329</p>
+          <p>3. Check out <a href="https://benerismusic.com" target="_blank">my music.</a></p>
+          <p>4. Call me up! 778-877-2329</p>
         </div>
       </footer>
     </>
