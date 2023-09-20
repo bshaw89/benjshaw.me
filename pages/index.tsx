@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>Hey <span className={styles.green}>Greensky Games</span>, I&apos;m Ben.</p>
+                <p>Hey <span className={styles.green}>Thunder Lotus</span>, I&apos;m Ben.</p>
               </div>
             </div>
             <div className={styles.divider}>
@@ -77,7 +77,7 @@ export default function Home() {
 
                     <Image
                       className={styles.photo}
-                      src="/swarm-vr2.jpg"
+                      src="/spiritfarer2.jpg"
                       alt="Next.js Logo"
                       width={550}
                       height={37}
@@ -90,7 +90,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>So I want to help you build incredible worlds in <span className={styles.green}>VR</span>, using <span className={styles.green}>Unity</span> and <span className={styles.green}>C#</span>.</p>
+                <p>So I want to help you build incredible worlds using <span className={styles.green}>Unity</span> and <span className={styles.green}>C#</span>. <span className={styles.faded}>And any other tools you use.</span></p>
               </div>
             </div>
             <div className={styles.divider}>
@@ -138,7 +138,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I&apos;ve spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>.</p>
+                <p>I&apos;ve spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>. <span className={styles.faded}>Now I'm ready to start making games full time.</span></p>
               </div>
             </div>
             <div className={styles.divider}>
@@ -241,8 +241,12 @@ export default function Home() {
 
           </div>
         </div>
-        
       </main>
+      <div className={styles.bleedWrap}>
+          <div className={styles.bleedText + " " + shantell.className}>
+          <p className={styles.writing10}>SO, THUNDER LOTUS...</p>
+          </div>
+      </div>
       <footer>
       <div className={styles.footer + " " + shantell.className}>
           <p>1. Check out <a href="https://www.linkedin.com/in/benjamin-shaw-1560881b4/" target="_blank">my LinkedIn.</a></p>
