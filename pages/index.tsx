@@ -162,7 +162,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I even did some scripting in <span className={styles.green}>Lua</span> for a D&D campaign I ran for 2 years using Tabletop Simulator. That was rough. <span className={styles.faded}>(also, cool VR mode)</span></p>
+                <p>I even did some scripting in <span className={styles.green}>Lua</span> for a D&D campaign I ran for 2 years using Tabletop Simulator. That was rough. <span className={styles.faded}>(But my players really appreciated it. Probably.)</span></p>
               </div>
             </div>
             <div className={styles.divider}>
