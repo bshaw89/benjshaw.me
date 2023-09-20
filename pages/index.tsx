@@ -138,7 +138,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I&apos;ve spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>. <span className={styles.faded}>Now I'm ready to start making games full time.</span></p>
+                <p>I&apos;ve spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>. <span className={styles.faded}>Now I&apos;m ready to start making games full time.</span></p>
               </div>
             </div>
             <div className={styles.divider}>
