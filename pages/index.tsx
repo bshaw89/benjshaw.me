@@ -90,7 +90,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>So I want to help you build incredible worlds using <span className={styles.green}>Unity</span> and <span className={styles.green}>C#</span>. <span className={styles.faded}>And any other tools you use.</span></p>
+                <p>So I want to help you build incredible worlds using <span className={styles.green}>Unity</span> and <span className={styles.green}>C#</span>. <span className={styles.faded}>And any other cool tools you&apos;re using to make 33 Immortals.</span></p>
               </div>
             </div>
             <div className={styles.divider}>
@@ -235,7 +235,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span> and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
+                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
               </div>
             </div>
 

@@ -342,6 +342,11 @@
   .item {
     display: flex;
   }
+
+  .bleedText {
+    font-size: 3.8rem;
+    padding-left: 2rem; 
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1020px) {
@@ -359,5 +364,19 @@
     font-size: 2.4rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bleedText {
+    font-size: 2.8rem;
+    padding-left: 2rem; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bleedText {
+    font-size: 2.5rem;
+    padding-left: 2rem; 
   }
 }
