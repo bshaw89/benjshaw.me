@@ -235,7 +235,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, and game design using the <span className={styles.green}>Unity</span>.</p>
+                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, and game design using <span className={styles.green}>Unity</span>.</p>
               </div>
             </div>
 
