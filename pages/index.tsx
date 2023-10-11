@@ -235,7 +235,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
+                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, and game design using the <span className={styles.green}>Unity</span>.</p>
               </div>
             </div>
 
@@ -249,9 +249,11 @@ export default function Home() {
       </div>
       <footer>
       <div className={styles.footer + " " + shantell.className}>
-          <p>1. Check out <a href="https://www.linkedin.com/in/benjamin-shaw-1560881b4/" target="_blank">my LinkedIn.</a></p>
+      <p>1. Check out <a href="https://www.linkedin.com/in/benjamin-shaw-1560881b4/" target="_blank">my LinkedIn.</a></p>
           <p>2. Check out <a href="https://github.com/bshaw89" target="_blank">my GitHub.</a></p>
-          <p>3. Call me up! 778-877-2329</p>
+          <p>3. Check out <a href="https://grey-mouser.itch.io/miasma" target="_blank">my game</a> on itch.io.</p>
+          <p>4. Check out <a href="https://benerismusic.com" target="_blank">my music.</a></p>
+          <p>5. Call me up! 778-877-2329</p>
         </div>
       </footer>
     </>
