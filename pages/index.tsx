@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>Hey, I&apos;m Ben. I love building worlds, programming, making music, and collaborating.</p>
+                <p>Hey, I&apos;m Ben. I love building worlds, coding, making music, and collaborating.</p>
               </div>
             </div>
             
@@ -54,20 +54,20 @@ export default function Home() {
 
                     <Image
                       className={styles.photo}
-                      src="/sword-attack-2.gif"
+                      src="/miasma-cloud.gif"
                       alt="Next.js Logo"
                       width={550}
                       height={37}
                       priority
                     />
                     <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing5}>&apos;Let me out of this photograph!&apos;</p>
+                      <p className={styles.writing5}>Escape from the miasma in the poison forest!</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I&apos;ve spent time exploring game design in <span className={styles.green}>Unity</span> using my own <span className={styles.green}>pixel art</span>, <span className={styles.green}>animation</span>, and <span className={styles.green}>music</span>. <span className={styles.faded}>Now I&apos;m ready to start making games full time.</span></p>
+                <p>I participated in the most recent <span className={styles.ludum}>Ludum</span> <span className={styles.dare}>Dare</span> and made a game called <span className={styles.miasma}>Miasma</span>. <span className={styles.faded}>You can play it <a href="https://grey-mouser.itch.io/miasma" target="_blank"><span className={styles.ludum}>here</span></a>, and this is my <a href="https://ldjam.com/users/greymouser" target="_blank"><span className={styles.dare}>dev diary</span></a> on the process.</span></p>
               </div>
             </div>
             <div className={styles.divider}>
@@ -140,7 +140,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, and game worldbuilding using the <span className={styles.green}>Web Audio Api</span>.</p>
+                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, and game design using <span className={styles.green}>Unity</span>.</p>
               </div>
             </div>
           </div>
