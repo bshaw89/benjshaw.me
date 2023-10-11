@@ -44,6 +44,10 @@
   color: #7B6C8A;
 }
 
+.spearhead {
+  color: #d80039;
+}
+
 .faded {
   color: grey;
 }
@@ -113,7 +117,7 @@
   font-size: 3rem;
   text-align: start;
   line-height: 1.5em;
-  background-color: #29294f;
+  background-color: #910026;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -133,7 +137,7 @@
   line-height: 0.6;
   font-weight: 900;
   padding-left: 6rem;
-  color: #29294f;
+  color: #910026;
 }
 
 .item .polaroid:before {
