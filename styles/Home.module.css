@@ -27,8 +27,8 @@
 }
 
 .green {
-  /* color: #249f42; */
-  color: #FF0078;
+  color: #249f42;
+  /* color: #FF0078; */
 
 }
 
@@ -113,7 +113,7 @@
   font-size: 3rem;
   text-align: start;
   line-height: 1.5em;
-  background-color: #29294f;
+  background-color: #249f42;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
