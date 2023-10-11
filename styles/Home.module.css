@@ -27,7 +27,21 @@
 }
 
 .green {
-  color: #249f42;
+  /* color: #249f42; */
+  color: #FF0078;
+
+}
+
+.ludum {
+  color: #e53;
+}
+
+.dare {
+  color: #f79122;
+}
+
+.miasma {
+  color: #7B6C8A;
 }
 
 .faded {
@@ -99,7 +113,7 @@
   font-size: 3rem;
   text-align: start;
   line-height: 1.5em;
-  background-color: #249f42;
+  background-color: #29294f;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -107,6 +121,19 @@
   padding: 6rem;
   /* min-height: 100vh; */
   box-sizing: border-box;
+}
+
+.bleedWrap {
+  display: flex;
+}
+
+.bleedText {
+  font-size: 4.8rem;
+  /* transform: translateY(41%); */
+  line-height: 0.6;
+  font-weight: 900;
+  padding-left: 6rem;
+  color: #29294f;
 }
 
 .item .polaroid:before {
@@ -269,6 +296,14 @@
   /* line-height: 100%; */
 }
 
+.writing10 {
+  /* transform: scale(1, 1) rotate(-2deg) translateX(10px) translateY(-30%); */
+  transform: scale(1, 1) rotate(0deg);
+
+  transition: all 0.35s;
+  /* line-height: 100%; */
+}
+
 /* .writing:nth-of-type(4n+2) {
   transform: scale(1, 1) rotate(-3deg) translateX(10px) translateY(-30%);
   transition: all 0.35s;
@@ -319,6 +354,11 @@
   .item {
     display: flex;
   }
+
+  .bleedText {
+    font-size: 3.8rem;
+    padding-left: 2rem; 
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1020px) {
@@ -336,5 +376,19 @@
     font-size: 2.4rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bleedText {
+    font-size: 2.8rem;
+    padding-left: 2rem; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bleedText {
+    font-size: 2.5rem;
+    padding-left: 2rem; 
   }
 }
