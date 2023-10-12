@@ -41,11 +41,15 @@
 }
 
 .miasma {
-  color: #7B6C8A;
+  color: #a35efa;
 }
 
 .spearhead {
   color: #d80039;
+}
+
+.manavoid {
+  color: #a35efa;
 }
 
 .faded {
@@ -117,7 +121,7 @@
   font-size: 3rem;
   text-align: start;
   line-height: 1.5em;
-  background-color: #910026;
+  background-color: #a35efa;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -137,7 +141,7 @@
   line-height: 0.6;
   font-weight: 900;
   padding-left: 6rem;
-  color: #910026;
+  color: #a35efa;
 }
 
 .item .polaroid:before {
