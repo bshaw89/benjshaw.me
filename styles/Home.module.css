@@ -61,6 +61,10 @@
   /*comment*/
 }
 
+.landr {
+  color: #32cbcb;
+}
+
 .faded {
   color: grey;
 }
@@ -130,7 +134,7 @@
   font-size: 3rem;
   text-align: start;
   line-height: 1.5em;
-  background-color: #faac0d;
+  background-color: #32cbcb;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -151,7 +155,7 @@
   line-height: 0.6;
   font-weight: 900;
   padding-left: 6rem;
-  color: #faac0d;
+  color: #32cbcb;
 }
 
 .item .polaroid:before {
