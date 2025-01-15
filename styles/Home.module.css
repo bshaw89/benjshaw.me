@@ -48,6 +48,14 @@
   color: grey;
 }
 
+.react {
+  color: #58c4dc;
+}
+
+.csharp {
+  color: #9e85fa;
+}
+
 .column {
   width: auto;
   /* flex: 1; */

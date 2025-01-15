@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>Hey, I&apos;m Ben. I love building worlds, coding, making music, and collaborating.</p>
+                <p>Hey, I&apos;m Ben. I'm a full-stack dev working in <span className={styles.react}>React</span>, <span className={styles.csharp}>C#</span>, and ASP.NET Core.</p>
               </div>
             </div>
             
@@ -67,7 +67,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I participated in the most recent <span className={styles.ludum}>Ludum</span> <span className={styles.dare}>Dare</span> and made a game called <span className={styles.miasma}>Miasma</span>. <span className={styles.faded}>You can play it <a href="https://grey-mouser.itch.io/miasma" target="_blank"><span className={styles.ludum}>here</span></a>, and this is my <a href="https://ldjam.com/users/greymouser" target="_blank"><span className={styles.dare}>dev diary</span></a> on the process.</span></p>
+                <p>I love building worlds, coding, and collaborating. I participated in the most recent <span className={styles.ludum}>Ludum</span> <span className={styles.dare}>Dare</span> and made a game called <span className={styles.miasma}>Miasma</span> in 48 hours. <span className={styles.faded}>You can play it <a href="https://grey-mouser.itch.io/miasma" target="_blank"><span className={styles.ludum}>here</span></a>, and this is my <a href="https://ldjam.com/users/greymouser" target="_blank"><span className={styles.dare}>dev diary</span></a> on the process.</span></p>
               </div>
             </div>
             <div className={styles.divider}>
@@ -85,13 +85,13 @@ export default function Home() {
                       priority
                     />
                     <div className={styles.caption + " " + caveat.className}>
-                      <p className={styles.writing7}>They&apos;re like &apos;why is he bowing like that, so dramatic&apos;</p>
+                      <p className={styles.writing7}>So dramatic...</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className={styles.details}>
-                <p>Before coding, I spent a lot of my time as an <span className={styles.green}>opera singer</span>. <span className={styles.faded}>I love collaborating, performing, and being on stage.</span></p>
+                <p>Before coding, I spent a lot of my time as an <span className={styles.green}>opera singer</span>. <span className={styles.faded}>I love performing and being on stage.</span></p>
 
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, and game design using <span className={styles.green}>Unity</span>.</p>
+                <p>I&apos;m currently working on a <span className={styles.green}>coding+music</span> project combining elements of <span className={styles.green}>generative music</span>, sound design, NLP, and game design using <span className={styles.green}>React</span>.</p>
               </div>
             </div>
           </div>
