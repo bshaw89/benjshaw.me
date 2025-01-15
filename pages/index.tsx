@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.details}>
-                <p>Hey, I&apos;m Ben. I'm a full-stack dev working in <span className={styles.react}>React</span>, <span className={styles.csharp}>C#</span>, and ASP.NET Core.</p>
+                <p>Hey, I&apos;m Ben. I&apos;m a full-stack dev working in <span className={styles.react}>React</span>, <span className={styles.csharp}>C#</span>, and ASP.NET Core.</p>
               </div>
             </div>
             
