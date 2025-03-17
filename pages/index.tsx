@@ -80,7 +80,7 @@ export default function Home() {
 
                     <Image
                       className={styles.photo}
-                      src="/attic-vase.jpg"
+                      src="/attic-vase.JPG"
                       alt="Next.js Logo"
                       width={550}
                       height={37}
