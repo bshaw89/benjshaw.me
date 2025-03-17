@@ -173,7 +173,7 @@ export default function Home() {
       </main>
       <div className={styles.bleedWrap}>
           <div className={styles.bleedText + " " + shantell.className}>
-          <p className={styles.writing10}>More about me...</p>
+          <p className={styles.writing10}>So, NFB...</p>
           </div>
       </div>
       <footer>

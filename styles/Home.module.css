@@ -28,7 +28,7 @@
 
 .green {
   /* color: #249f42; */
-  color: #FF0078;
+  color: #9e85fa;
 
 }
 
@@ -147,10 +147,12 @@
 }
 
 .footer {
+  color: black;
+  font-weight: bold;
   font-size: 3rem;
   text-align: start;
   line-height: 1.5em;
-  background-color: #29294f;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -170,7 +172,7 @@
   line-height: 0.6;
   font-weight: 900;
   padding-left: 6rem;
-  color: #29294f;
+  color: white;
 }
 
 .item .polaroid:before {
