@@ -32,6 +32,14 @@
 
 }
 
+.spotify {
+  color: #1ED760;
+}
+
+.bandcamp {
+  color: #629aa9;
+}
+
 .transit {
   color: #30B566
   /*update comment*/
@@ -49,12 +57,27 @@
   color: #7B6C8A;
 }
 
+.nfb {
+  color: white;
+  font-weight: bolder;
+  background-color: black;
+  line-height: 1.25;
+  /* background-size: 20px 20px; */
+  height: 20px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  /* border-radius: 10em; */
+}
+
 .faded {
   color: grey;
 }
 
 .react {
   color: #58c4dc;
+  line-height: 1.25;
 }
 
 .csharp {
@@ -112,6 +135,7 @@
 
 .details {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex: 1;
